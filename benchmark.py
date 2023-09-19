@@ -5,8 +5,8 @@ print("Daeon James")
 # Excercise 2: Create a variable called FavoriteShow
 # and set it equal to the name of your favorite show
 
-FavoriteShow= ("South park")
-print("FavoriteShow")
+FavoriteShow= 'South park'
+print(FavoriteShow)
 
 # Excercise 3: create two variables called height & # age, then display in the console, the product of them. 
 height= (6)
