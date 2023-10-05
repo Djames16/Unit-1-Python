@@ -42,4 +42,4 @@ random = {
   'feet': 9
 }
 for r in random:
-  print(random)
+  print(r)
