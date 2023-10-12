@@ -6,7 +6,7 @@ Write a Python program that prints the current date and time using the datetime 
 from datetime import date
 today = date.today()
 print("Today's date:", today)
-#
+# First I put from datetime import date so that I can recieve the date. Set a variable today equal to date.today so that I can get todays dates. Then printed Todays date.
 
 """
 Exercise 2:
@@ -16,7 +16,7 @@ Using the strftime function format the date in standard U.S. date format (MM/DD/
 from datetime import date
 da = today.strftime("%m/%d/%y")
 print("Today's date:",da)
-#
+# First I put from datetime import date so that I can recieve the date. Set a variable today equal to today.strftime so that I can get todays dates in / / format. Then printed Todays date.
 """
 Exercise 3:
 Using the strptime function, convert two strings into dates.
@@ -32,20 +32,9 @@ date_obj3=date_obj2-date_obj1
 print(date_obj3)
 
 
-#
+#First I put from datetime import date so that I can recieve the date. Set 2 variables equal to 2 dates and time in / / format. Then subtracted the 2 dates then set it equal to a new variable then printed the difference date.
 """
 Excercise 4:
 Write a program that asks the user for their birthdate and calculates their current 
 age using the datetime module.
 """
-from datetime import datetime
-User=input("Please input your birthday like %m/%d/%Y")
-
-print(User)
-
-        Add=input("Enter an item:")
-
-        Todo.append(Add)
-
-        print(Todo)
-#
