@@ -44,7 +44,7 @@ and returns the average (mean) of those numbers.
 def avg_num(a):
     tot=sum(a)
     return tot/len(a)
-a=avg_num([1, 2, 3, 4, 6])
+a=avg_num([1, 2, 3, 4, 5])
 print(a)
 
 assert avg_num ([1, 2, 3, 4, 5])==3.0
